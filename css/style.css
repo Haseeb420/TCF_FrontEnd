@@ -174,9 +174,6 @@ border: 0;
 } */
 
 @media only screen and (max-width: 600px){
-    .upper_nav li a{
-        font-size: 12px;
-    }
     .upper_nav .nav-item .nav-link {
         font-size: 12px;
         margin: 0px;
