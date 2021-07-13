@@ -23,44 +23,39 @@
 
     <!-- navbar code starts here -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <ul class="nav ml-auto justify-flex-row">
+            <li class="nav-item">
+                <a class="nav-link active text-dark" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item"> <a class="nav-link text-dark" href="#"><i class="fa fa-youtube-play"
+                        aria-hidden="true"></i></a>
 
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="donate_us" href="#">Donate Now</a>
-                </li>
-            </ul>
-        </div>
+            </li>
+
+            <li class="nav-item d-inline-block ">
+                <a class="nav-link text-dark" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+            <li class="d-inline-block">
+                <a class="nav-link" id="donate_us" href="#">Donate Now</a>
+            </li>
+        </ul>
+
     </nav>
+
     <nav class="navbar navbar-expand-lg navbar-light my-3">
         <div class="container">
             <a class="navbar-brand" href="#"> <img src="./images/brand_icon.png" alt="logo" class="brand_icon" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -121,7 +116,7 @@
     <!-- navbar code ends here -->
 
     <!-- slider code starts here -->
-    <div id="homeSlider" class="my-3 carousel slide" data-ride="carousel">
+    <div id="homeSlider" class="my-3 carousel slide d-none d-lg-block" data-ride="carousel">
         <ol class="carousel-indicators">
             <li class="active" data-target="#homeSlider" data-slide-to="0"></li>
             <li data-target="#homeSlider" data-slide-to="1"></li>
@@ -166,7 +161,7 @@
                     through education. 25 years later, TCF is now one of Pakistan’s leading organizations in the field
                     of education for the less privileged.</p>
             </div>
-            <div class="col-4 my-3 text-black-50">
+            <div class="col-lg-4 col-12 my-3 text-black-50">
                 <h3 class="text-center" style="color:#8BB624;">Vission</h3>
                 <h4 class="text-center">Positive Change</h4>
                 <p class="text-center">
@@ -174,13 +169,13 @@
                     change.
                 </p>
             </div>
-            <div class="col-4 my-3 text-black-50">
+            <div class="col-lg-4 col-12 my-3 text-black-50">
                 <h3 class="text-center" style="color:#F7991E;">Mission</h3>
                 <h4 class="text-center">Education / Future</h4>
                 <p class="text-center">Through the power of quality education enabling moral, spiritual and intellectual
                     enlightenment.</p>
             </div>
-            <div class="col-4 my-3 text-black-50">
+            <div class="col-lg-4 col-12 my-3 text-black-50">
                 <h4 class="text-center" style="color:#028B46;">Values</h4>
                 <h4 class="text-center">Integrity</h4>
                 <h4 class="text-center">Ownership</h4>
@@ -192,17 +187,17 @@
         <div class="row bg-light py-5">
             <div class="col-10 mx-auto">
                 <div class="row">
-                    <div class="col-3 offset-1">
+                    <div class="col-lg-3 col-6 my-3 offset-lg-1">
                         <img src="./images/years-icon.png" class="mx-auto d-block" alt="yearsimg" />
                         <h2 class="text-center">Years</h2>
                         <h4 class="text-center">25</h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-6 my-3">
                         <img src="./images/school-icon.png" class="mx-auto d-block" alt="yearsimg" />
                         <h2 class="text-center">Schools</h2>
                         <h4 class="text-center">1,687</h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-6 my-3">
                         <img src="./images/student-icon.png" class="mx-auto d-block" alt="yearsimg" />
                         <h2 class="text-center">Students</h2>
                         <h4 class="text-center">275,000</h4>
@@ -215,35 +210,35 @@
     <div class="container our_models">
         <h1 class="text-center my-3">Our Models</h1>
         <div class="row">
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/model-catering-to-the-most-needy.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">Catering to the most needy</h3>
             </div>
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/model-taking-schools-to-the-children.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">Embedding schools in the heart of urban slums & rural communities</h3>
             </div>
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/Purpose-Built-Schools.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">Purpose-built schools</h3>
             </div>
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/model-all-female-faculty.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">All female faculty & a 50% student gender ratio</h3>
             </div>
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/model-ensuring-quality-of-education.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">Ensuring a high quality of education</h3>
             </div>
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/model-beyond-basic-schooling.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">Holistic student development & alumni support</h3>
             </div>
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/model-community-development.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">Uplifting the entire community</h3>
             </div>
-            <div class="col-3 my-3">
+            <div class="col-lg-3 col-6 my-3">
                 <img src="./images/model-professional-management.png" class="mx-auto d-block" alt="yearsimg" />
                 <h3 class="text-center">Professional Management</h3>
             </div>
@@ -255,28 +250,28 @@
             <div class="col-12">
                 <h1 class="text-center">TCF Schools</h1>
                 <div class="row">
-                    <div class="col-4 m-auto">
+                    <div class="col-lg-4 col-12 my-3 m-auto">
                         <p class="text-center">TCF embeds its purpose-built schools in the heart of
                             urban slums and rural communities</p>
                     </div>
                 </div>
-                <div class="col-8 mx-auto">
+                <div class="col-lg-8 col-12 mx-auto">
                     <div class="row my-3">
-                        <div class="col-4 school_img_hover">
+                        <div class="col-lg-4 col-6 my-3 school_img_hover">
                             <img class="school_img" src="./images/school-1.jpg" alt="school1" />
                             <div class="hover_blur"></div>
                         </div>
-                        <div class="col-4 school_img_hover">
+                        <div class="col-lg-4 col-6 my-3 school_img_hover">
                             <img class="school_img" src="./images/school-2.jpg" alt="school2" />
                             <div class="hover_blur"></div>
                         </div>
-                        <div class="col-4 school_img_hover">
+                        <div class="col-lg-4 col-6 my-3 school_img_hover">
                             <img class="school_img" src="./images/school-3.jpg" alt="school3" />
                             <div class="hover_blur"></div>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn btn-success col-3 h3 d-block mx-auto my-3">Explore Our Schools</a>
+                <a href="#" class="btn btn-success col-lg-3 col-6 h3 d-block mx-auto my-3">Explore Our Schools</a>
 
             </div>
         </div>
@@ -285,7 +280,7 @@
     <!-- tcf educational programs code starts here -->
     <div class="container my-3  p-5">
         <div class="row my-3">
-            <div class="col-6 mx-auto">
+            <div class="col--lg-6 col-12 mx-auto">
                 <h2 class="text-center text-capitalized">TCF Education Programmes</h2>
                 <p class="text-center">Our education programme is designed to deliver
                     superior learning outcomes</p>
@@ -293,20 +288,20 @@
         </div>
 
         <div class="row my-3">
-            <div class="col-4">
+            <div class="col-lg-4 my-3 col-6">
                 <img src="./images/Customized-Textbooks.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                 <h4 class="text-center">Customized textbooks</h4>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 my-3 col-6">
                 <img src="./images/teacher-training.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                 <h4 class="text-center">In-depth teacher training</h4>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 my-3 col-6">
                 <img src="./images/Quality-assurance.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                 <h4 class="text-center">Quality assurance</h4>
             </div>
         </div>
-        <a href="#" class="btn btn-success col-2 py-3 d-block my-3 mx-auto">Learn More</a>
+        <a href="#" class="btn btn-success col-lg-2 col-6 py-lg-3 d-block my-3 mx-auto">Learn More</a>
     </div>
     <!-- tcf educational programs code ends here -->
 
@@ -315,36 +310,36 @@
         <div class="row py-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 mx-auto">
+                    <div class="col-lg-8 col-12 my-3 mx-auto">
                         <h3 class="text-center">TCF Volunteer and Alumni Programmes</h3>
                         <p class="text-center">Our volunteer and alumni programmes aim for holistic
                             development of our students</p>
                     </div>
                 </div>
                 <div class="row my-3">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-6 my-sm-3">
                         <img src="./images/Rahbar.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                         <h4 class="text-center">Rahbar Programme is designed to mentor & empower TCF students</h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-6 my-sm-3">
                         <img src="./images/alumni-develpment.png" class="my-3 d-block mx-auto"
                             alt="customized_textbook" />
                         <h4 class="text-center">Alumni Development Programme prepares TCF alumni for admission in some
                             of the finest universities</h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-6 my-sm-3">
                         <img src="./images/Career-Counseling.png" class="my-3 d-block mx-auto"
                             alt="customized_textbook" />
                         <h4 class="text-center">We conduct career counselling sessions with our graduating students to
                             help them attain their academic & professional goals</h4>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-6  my-sm-3">
                         <img src="./images/parent-icon.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                         <h4 class="text-center">Summer Camp engages and develops Primary school students through games &
                             other drama-based activities</h4>
                     </div>
                 </div>
-                <a href="#" class="btn btn-success col-2 py-3 d-block my-3 mx-auto">Learn More</a>
+                <a href="#" class="btn btn-success col-lg-2 col-6 py-lg-3 d-block my-3 mx-auto">Learn More</a>
 
             </div>
         </div>
@@ -356,7 +351,7 @@
     <!-- TCF Community Programmes code starts here -->
     <div class="container my-3 py-5">
         <div class="row my-3">
-            <div class="col-8 mx-auto">
+            <div class="col-lg-8 col-12 mx-auto">
                 <h3 class="text-center">TCF Community Programmes</h3>
                 <p class="text-center">Our community programmes are focused on developing
                     thriving communities around our schools</p>
@@ -364,22 +359,22 @@
         </div>
 
         <div class="row my-3">
-            <div class="col-4">
+            <div class="col-lg-4 col-6 my-3">
                 <img src="./images/Aagahi.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                 <h4 class="text-center">Our Aagahi Programme imparts functional literacy skills to women in school
                     communities</h4>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-6 my-3">
                 <img src="./images/water-project-icon1.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                 <h4 class="text-center">We install water purification plants to provide clean water</h4>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-6 my-3">
                 <img src="./images/Vocational-Training.png" class="my-3 d-block mx-auto" alt="customized_textbook" />
                 <h4 class="text-center">We are providing vocational training to expand economic opportunities for women
                 </h4>
             </div>
         </div>
-        <a href="#" class="btn btn-success col-2 py-3 d-block my-3 mx-auto">Learn More</a>
+        <a href="#" class="btn btn-success col-lg-2 col-6 py-3 d-block my-3 mx-auto">Learn More</a>
 
     </div>
     <!-- TCF Community Programmes code ends here -->
@@ -389,31 +384,32 @@
                 <h2 class="text-center text-muted">Join the TCF Movement!
                 </h2>
                 <div class="row">
-                    <div class="col-4 m-auto">
+                    <div class="col-lg-4 col-12 m-auto">
                         <p class="text-center">Explore other ways to donate to our cause</p>
                     </div>
                 </div>
-                <div class="col-8 mx-auto">
+                <div class="col-lg-8 col-12 mx-auto">
                     <div class="row my-3">
-                        <div class="col-4 school_img_hover">
+                        <div class="col-lg-4 col-6 my-3 school_img_hover">
                             <img class="school_img" src="./images/Movement1.jpg" alt="movement-1" />
-                            <a href="#" class="btn h4 btn-success d-block my-3 col-11 movement_btn_1 py-3">Donate To
+                            <a href="#" class="btn h6 btn-success d-block my-3 col-11 movement_btn_1 py-lg-3">Donate To
                                 Make a Difference</a>
                         </div>
-                        <div class="col-4 school_img_hover">
+                        <div class="col-lg-4 col-6 my-3 school_img_hover">
                             <img class="school_img" src="./images/Movement2.jpg" alt="movement-2" />
                             <a href="#"
                                 class="btn h4 btn-warning d-block my-3 col-11 text-white py-3 movement_btn_2">Donate To
                                 Make a Difference</a>
                         </div>
-                        <div class="col-4 school_img_hover">
+                        <div class="col-lg-4 col-6 my-3 school_img_hover">
                             <img class="school_img" src="./images/Movement3.jpg" alt="movement-3   " />
                             <a href="#" class="btn h4 btn-success d-block my-3 col-11 movement_btn_3 py-3">Donate To
                                 Make a Difference</a>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn endbtn btn-success col-2  h1 p-3 d-block mx-auto my-3">Other Ways To Donate</a>
+                <a href="#" class="btn endbtn btn-success col-lg-2 col-8  h1 p-3 d-block mx-auto my-3">Other Ways To
+                    Donate</a>
 
             </div>
         </div>
@@ -429,7 +425,7 @@
     <footer class="container-fluid">
         <div class="container my-3">
             <div class="row pt-5">
-                <div class="col-8 mx-auto">
+                <div class="col-lg-8 col-12 mx-auto">
                     <h1 class="text-center">
                         TCF News& Stories
                     </h1>
@@ -437,28 +433,28 @@
             </div>
             <div class="row my-3">
 
-                <div class="col-8 mx-auto">
-                    <ul class="nav justify-content-center">
+                <div class="col-12 mx-auto">
+                    <ul class="nav footer_nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link text-dark text-capitalized h5 active" href="#">BLOGS</a>
+                            <a class="nav-link footer_links text-dark text-capitalized lg-h5 active" href="#">BLOGS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark text-capitalized h5" href="#">EVENTS</a>
+                            <a class="nav-link footer_links text-dark text-capitalized h5" href="#">EVENTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark text-capitalized h5" href="#">SUCCESS STORIES</a>
+                            <a class="nav-link footer_links text-dark text-capitalized h5" href="#">SUCCESS STORIES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark text-capitalized h5" href="#">TCF IN MEDIA</a>
+                            <a class="nav-link footer_links text-dark text-capitalized h5" href="#">TCF IN MEDIA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark text-capitalized h5" href="#">VIDEOS</a>
+                            <a class="nav-link footer_links text-dark text-capitalized h5" href="#">VIDEOS</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row my-3">
-                <div class="col-3 blogs">
+                <div class="col-lg-3 col-6 my-3 blogs">
                     <img src="./images/1.jpg" alt="bblog1" width="100%" height="200px" />
                     <h5 class=" text-truncate my-3">Jazz & TCF To Digitally Transform Over 1,600 Schools Nationwide</h5>
                     <p style="width:100%; height: 100px; overflow: hidden; text-overflow:ellipsis; ">Jazz, the country’s
@@ -473,7 +469,7 @@
                         curriculum, revamp of computer labs, and a digital school management system.</p>
                     <a href="#" class="btn btn-success col-10 d-block my-2">Read More</a>
                 </div>
-                <div class="col-3 blogs">
+                <div class="col-lg-3 col-6  my-3 blogs">
                     <img src="./images/2.jpg" alt="bblog1" width="100%" height="200px" />
                     <h5 class=" text-truncate my-3">Jazz & TCF To Digitally Transform Over 1,600 Schools Nationwide</h5>
                     <p style="width:100%; height: 100px; overflow: hidden; text-overflow:ellipsis; ">Jazz, the country’s
@@ -488,7 +484,7 @@
                         curriculum, revamp of computer labs, and a digital school management system.</p>
                     <a href="#" class="btn btn-success col-10 d-block my-2">Read More</a>
                 </div>
-                <div class="col-3 blogs">
+                <div class="col-lg-3 col-6 my-3 blogs">
                     <img src="./images/3.jpeg" alt="bblog1" width="100%" height="200px" />
                     <h5 class=" text-truncate my-3">Jazz & TCF To Digitally Transform Over 1,600 Schools Nationwide</h5>
                     <p style="width:100%; height: 100px; overflow: hidden; text-overflow:ellipsis; ">Jazz, the country’s
@@ -503,7 +499,7 @@
                         curriculum, revamp of computer labs, and a digital school management system.</p>
                     <a href="#" class="btn btn-success col-10 d-block my-2">Read More</a>
                 </div>
-                <div class="col-3 blogs">
+                <div class="col-lg-3 col-6 my-3 blogs">
                     <img src="./images/4.jpg" alt="bblog1" width="100%" height="200px" />
                     <h5 class=" text-truncate my-3">Jazz & TCF To Digitally Transform Over 1,600 Schools Nationwide</h5>
                     <p style="width:100%; height: 100px; overflow: hidden; text-overflow:ellipsis; ">Jazz, the country’s
@@ -521,22 +517,22 @@
             </div>
         </div>
         <div class="container-fluid my-3 py-5 subscribe">
-            <p class="col-4 text-white text-center my-3 mx-auto">
+            <p class="col-lg-4 col-12 text-white text-center my-3 mx-auto">
                 Become a part of our vibrant community,
                 Subscribe to our mailing list!
             </p>
             <div class="container my-3">
                 <form action="" class="row">
-                    <div class="col-3">
+                    <div class="col-sm-12 col-lg-4 my-3">
                         <input type="text" class="form-control p-4 d-block" placeholder="Your First name">
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-12 col-lg-4 my-3">
                         <input type="text" class="form-control p-4 d-block" placeholder="Your First name">
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-12 col-lg-4 my-3">
                         <input type="email" class="form-control p-4 d-block" placeholder="Your Email Address">
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-12 col-lg-4 my-3">
                         <button type="submit" class="btn btn-warning">Subscribe</button>
                     </div>
                 </form>
@@ -544,7 +540,7 @@
         </div>
         <div class="container py-3">
             <div class="row">
-                <div class="col-8 mx-auto">
+                <div class="col-lg-8 col-10 mx-auto">
                     <h2 class="text-center text-muted">
                         Contact Us
                     </h2>
@@ -553,17 +549,17 @@
                         Karachi 74900, Pakistan. SECP Registration Number: 0037144
                     </p>
                     <div class="row my-3">
-                        <div class="col-4">
+                        <div class="col-lg-4 col-10 my-3">
                             <a href="#" class="text-dark text-decoration-none" style="font-size: 18px;">
                                 <i class="fa fa-phone text-success" aria-hidden="true"></i>Tel: 0800-00823
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-10 my-3">
                             <a href="#" class="text-dark text-decoration-none" style="font-size: 18px;">
                                 <i class="fa fa-envelope  text-success" aria-hidden="true"></i>Email: info@tcf.org.pk
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-10 my-3">
                             <a href="#" class="text-dark text-decoration-none" style="font-size: 18px;">
                                 <i class="fa fa-fax text-success" style="margin-right: 2px;" aria-hidden="true"></i>Fax:
                                 +92-21-35113460
@@ -572,8 +568,8 @@
                     </div>
                     <div class="row">
                         <div class="col-8 mx-auto">
-                            <img src="./images/jamapunji.jpg" alt="jamapunji"/>
-                            <img src="./images/pcp.jpg" alt="pcp"/>
+                            <img src="./images/jamapunji.jpg" alt="jamapunji" />
+                            <img src="./images/pcp.jpg" alt="pcp" />
                         </div>
                     </div>
                 </div>
