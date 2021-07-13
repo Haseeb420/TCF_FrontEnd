@@ -110,15 +110,23 @@ body{
     left:-100;
     z-index: 1000;
     height: 100%;
-    background: rgba(252, 6, 6, 0.575);
+    background: rgba(235, 230, 230, 0.575);
     visibility: hidden;
     transition: 0.1s all ease;
 }
 .school_img_hover:hover .hover_blur{
     visibility: visible;
     left:-100;
+    top:-100;
 } 
+p{
+    font-size: 20px;
+    color:#666060;
+}
+h4{
+    color:#666060;
 
+}
 .school_img{
     width: 90%;
     height: auto;
