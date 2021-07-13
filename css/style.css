@@ -174,9 +174,13 @@ border: 0;
 } */
 
 @media only screen and (max-width: 600px){
-    .upper_nav li{
-        display: inline-block;
-        width: 100%;
+    .upper_nav li a{
+        font-size: 12px;
+    }
+    .upper_nav .nav-item .nav-link {
+        font-size: 12px;
+        margin: 0px;
+        padding: 10px;
     }
     footer h1{
         font-size: 30px;
@@ -194,4 +198,5 @@ border: 0;
         display: block;
         margin-left:100px;
     }
+
 }
